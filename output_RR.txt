@@ -1,0 +1,28 @@
+First-Fit Memory Allocation:
+
+Memory Allocation (First-Fit):
+Process	MemoryReq	StartAddr	EndAddr
+P1	20		0		19
+P2	10		20		29
+P3	30		30		59
+P4	25		60		84
+P5	15		85		99
+
+Select Scheduling Algorithm:
+1. FCFS
+2. SJF (Non-Preemptive)
+3. Round Robin
+Choice: Enter time quantum: 
+Gantt Chart:
+| P1 | P2 | P3 | P4 | P5 | P1 | P2 | P4 | P1 |
+0 2 4 6 8 9 11 12 14 15 
+
+Process	WT	TAT
+P1	10	15
+P2	7	10
+P3	0	2
+P4	5	9
+P5	2	3
+Average WT: 4.80
+Average TAT: 7.80
+CPU Utilization: 100.00%
